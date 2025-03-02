@@ -1,2 +1,2 @@
 # Landing page odin Project
-La siguiente es una landing page donde se pondrá en practica cono cimientos de flex y position
+Ek siguiente proyectó es una landing page donde se pondrá en practica varios conceptos como el de flex y position, asi como etiquetas semánticas en HTML
