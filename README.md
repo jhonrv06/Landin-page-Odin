@@ -1,2 +1,2 @@
-# Landing page odin Project
-El siguiente proyectó es una landing page donde se pondrá en practica varios conceptos como el de flex y position, asi como etiquetas semánticas en HTML
+# Landing page Dream travel
+Dream Travel un sitio web en el cual podras encontrar tu destino favorito de acuerdo a tus gustos e intereses. La IA se encargara de analizar tu personalizad de acuerdo a una serie de preguntas realizadas al moment de crear tu cuenta.
