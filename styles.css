@@ -1,4 +1,110 @@
-p{
-    width: 400px;
-    height: auto;
+body{
+    display: flex;
+    font-family: "Roboto Slab", serif;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
+
+header, main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(209, 93, 64);
+    padding: 5px 20px 5px 20px;
+}
+
+nav{
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 0 10px #02020246;
+}
+
+.header-container-1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(images/canyon-1740973_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: content-box;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px black;
+    text-shadow: 0 0 10px #0202029d;
+}
+
+.header-container-1 p{
+    font-size: 20px;
+    display: flex;
+    width: 500px;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+
+nav, ul{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+.register{
+    width: 200px;
+    height: 100px;
+    font-size: 15px;
+}
+.header-container-2, .register, .container-images{
+    margin: 0 200px 0 200px;
+}
+
+nav img, ul{
+    margin: 10px 200px 10px 200px;
+}
+
+/*redondear el logo*/
+nav img{
+    border-radius: 50%;
+}
+
+/*inician los estilos para el main*/
+.container-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid rgb(177, 219, 61);
+}
+
+.destinos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    flex: 1 1 auto;
+}
+
