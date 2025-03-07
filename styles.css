@@ -6,12 +6,24 @@ body{
     margin: 0;
 }
 
+img{
+    border-radius: 5px;
+}
+
+nav img{
+    border-radius: 50%;
+}
+
 header, main{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+main{
+    gap: 20px;
 }
 
 button{
@@ -88,8 +100,20 @@ nav img, ul{
 }
 
 /*redondear el logo*/
-nav img{
-    border-radius: 50%;
+
+.destinos-container h2{
+    position: absolute;
+    color: white;
+    background-color: rgb(209, 93, 64);
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.destinos-container img{
+    width: 100%;
+    height: 500px;
+    text-align: center;
 }
 
 /*inician los estilos para el main*/
@@ -97,14 +121,15 @@ nav img{
     display: flex;
     justify-content: center;
     gap: 20px;
-    border: 1px solid rgb(177, 219, 61);
+    flex-wrap: wrap;
 }
 
 .destinos-container{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid;
+    width: 300px;
     flex: 1 1 auto;
 }
 
