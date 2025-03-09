@@ -160,11 +160,34 @@ footer > P{
     padding: 20px;
     margin: 0;
 }
+
 .footer-container{
     margin: 80px 200px 80px 200px;
-    background-color: #3882F6;
+    background-color: rgb(209, 93, 64);
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+
+.footer-container button{
+   border: 1px solid white;
+}
+
+.footer-container{
+    padding: 50px 150px 50px 150px ;
+}
+
+h3, .footer-container p{
+    padding: 0;
+    margin: 0;
 }
